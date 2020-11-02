@@ -1,0 +1,14 @@
+<!--templates/player/player.wxml-->
+<view class="container" wx:if="{{current && !max}}" bindtap="showMax">
+  <view class="process"></view>
+	<image style="width: 90rpx; height: 90rpx; background-color: #eeeeee;" mode="scaleToFill" src="http://192.168.1.91:3000/{{current.image}}"></image>
+	<view class="infor">
+		<text class="name">{{current.name}}</text>
+		<text class="author">{{current.author}}</text>
+	</view>
+</view>
+
+<view wx:if="{{current && max}}" class="max-container">
+	<view>down</view>
+	
+</view>

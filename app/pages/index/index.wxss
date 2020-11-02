@@ -1,0 +1,64 @@
+
+.container{
+  background: #242424;
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.content{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+.swiper{
+  height: 35% !important;
+}
+swiper{
+  height: 100%;
+}
+
+.label{
+  background: #616161;
+  padding: 1rem;
+  border-radius: 2px;
+  margin-right: .5rem;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.label .value{
+  margin-left: 5px;
+  color: #00acc1;
+}
+
+
+.page-section-spacing{
+  margin-top: 60rpx;
+  margin-bottom: 80rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 40%;
+  height: 300rpx;
+  margin-left: 20rpx;
+}
+
+.desc{
+  font-size: .8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

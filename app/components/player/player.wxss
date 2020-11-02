@@ -1,0 +1,48 @@
+/* templates/player/player.wxss */
+
+.container{
+  height: 55px;
+  width: 100%;
+  background: #242424;
+  position: fixed;
+  bottom: 0;
+  margin-left: -1rem;
+  display: flex;
+  align-items: center;
+}
+
+.infor{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.name{
+
+}
+
+.author{
+  font-size: 20rpx;
+}
+
+.process{
+  width: 100%;
+  height: 2px;
+  background: gray;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.max-container{
+  height: 100%;
+  width: 100%;
+  background: #242424;
+  position: fixed;
+  bottom: 0;
+  margin-left: -1rem;
+  display: flex;
+  align-items: center;
+}

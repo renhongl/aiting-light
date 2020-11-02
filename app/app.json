@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/folder/folder",
+    "pages/about/about",
+    "pages/playList/playList"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#242424",
+    "navigationBarTitleText": "爱听",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#00acc1",
+    "backgroundColor": "#242424",
+    "color": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-s.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-s.png"
+      },
+      {
+        "pagePath": "pages/folder/folder",
+        "text": "收藏",
+        "iconPath": "images/folder.png",
+        "selectedIconPath": "images/folder-s.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person-s.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

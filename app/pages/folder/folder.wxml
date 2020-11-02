@@ -1,0 +1,4 @@
+<!--pages/folder/folder.wxml-->
+<view class="container">
+<text>pages/folder/folder.wxml</text>
+</view>

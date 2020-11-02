@@ -1,0 +1,9 @@
+<view class="container">
+	<view class="list" wx:for="{{playList}}" bindtap="changeMusic" data-item="{{item}}">
+		<image style="width: 110rpx; height: 110rpx; background-color: #eeeeee;" mode="scaleToFill" src="http://192.168.1.91:3000/{{item.image}}"></image>
+		<view class="infor">
+			<text class="{{item.name === current.name ? 'name current' : 'name'}}" >{{item.name}}</text>
+			<text class="author">{{item.author}}</text>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,25 @@
+
+
+<view class="container">
+	<text class="title">推荐</text>
+	<view class="page-section page-section-spacing swiper content">
+		<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+			<block wx:for="{{recommend}}" wx:key="*this">
+				<swiper-item>
+					<image style="width: 100%; height: 100%; background-color: #eeeeee;" mode="scaleToFill" src="http://192.168.1.91:3000/{{item.image}}"></image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<text class="title">流行</text>
+	<view class="page-section-spacing" bindtap="toPlayList">
+		<scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+			<view wx:for="{{fashion}}" class="scroll-view-item_H">
+				<image style="width: 100%; height: 100%;" mode="scaleToFill" src="http://192.168.1.91:3000/{{item.image}}"></image>
+				<view class="desc">{{item.desc}}</view>
+			</view>
+		</scroll-view>
+	</view>
+
+	<player current="{{current}}"></player>
+</view>

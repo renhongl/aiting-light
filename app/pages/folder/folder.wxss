@@ -1,0 +1,6 @@
+/* pages/folder/folder.wxss */
+.container{
+  background: #242424;
+  height: 100%;
+  width: 100%;
+}

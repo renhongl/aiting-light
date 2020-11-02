@@ -1,0 +1,6 @@
+<!--pages/about/about.wxml-->
+
+
+<view class="container">
+<text>pages/about/about.wxml</text>
+</view>
